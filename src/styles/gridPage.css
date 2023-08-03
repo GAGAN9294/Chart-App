@@ -1,0 +1,14 @@
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(550px , 1fr));
+    grid-gap: 12px;
+  }
+  
+  .item {
+    min-height: 200px;
+    justify-content: center;
+    border-style: solid;
+    border-color: grey;
+    border-radius:20px;
+  }
